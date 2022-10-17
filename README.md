@@ -22,6 +22,4 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-* 23 posts are displayed in this gif, which demonstrates that user can load posts infinitely. 
-* In order to quickly add 20+ posts, I did not include images for many of the posts. This is not an error. 
 ![](https://i.imgur.com/BHOHHlh.gif)
