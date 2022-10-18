@@ -8,106 +8,122 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Instagram/FeedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "FeedViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Instagram/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "FeedViewController"
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D - 366d9cdaabc1fad1"
+                  uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D - 7a24a5fe4fdab2d6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Instagram.FeedViewController.posts.getter : Swift.Array&lt;__C.PFObject&gt;"
+                  symbolName = "Instagram.FeedViewController.numberOfPosts.getter : Swift.Optional&lt;Swift.Int&gt;"
                   moduleName = "Instagram"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a123456/Desktop/Instagram/Instagram/FeedViewController.swift"
+                  urlString = "file:///Users/a123456/Desktop/Instagram/Parstagram/Instagram/Instagram/FeedViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "90">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "96">
                </Location>
                <Location
-                  uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D - a71705a7dcb6e8a5"
+                  uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D - e1926fa655a7a6c2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Instagram.FeedViewController.posts.setter : Swift.Array&lt;__C.PFObject&gt;"
+                  symbolName = "Instagram.FeedViewController.numberOfPosts.setter : Swift.Optional&lt;Swift.Int&gt;"
                   moduleName = "Instagram"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a123456/Desktop/Instagram/Instagram/FeedViewController.swift"
+                  urlString = "file:///Users/a123456/Desktop/Instagram/Parstagram/Instagram/Instagram/FeedViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "116">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "120">
                </Location>
                <Location
-                  uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D - 70efdcfa7b01afb4"
+                  uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D - eb7acf78306ce1d1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Instagram.FeedViewController.posts.modify : Swift.Array&lt;__C.PFObject&gt;"
+                  symbolName = "Instagram.FeedViewController.numberOfPosts.modify : Swift.Optional&lt;Swift.Int&gt;"
                   moduleName = "Instagram"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a123456/Desktop/Instagram/Instagram/FeedViewController.swift"
+                  urlString = "file:///Users/a123456/Desktop/Instagram/Parstagram/Instagram/Instagram/FeedViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "0">
                </Location>
                <Location
-                  uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D - bd9a126dc8169bc3"
+                  uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D - 8cceb80eadb67f91"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Instagram.FeedViewController.posts.modify : Swift.Array&lt;__C.PFObject&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  symbolName = "Instagram.FeedViewController.numberOfPosts.modify : Swift.Optional&lt;Swift.Int&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "Instagram"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a123456/Desktop/Instagram/Instagram/FeedViewController.swift"
+                  urlString = "file:///Users/a123456/Desktop/Instagram/Parstagram/Instagram/Instagram/FeedViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "15">
                </Location>
                <Location
-                  uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D - 4b0f95be1277b8ae"
+                  uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D - 3b1dd39eb9b171b2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Instagram.FeedViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Instagram.FeedViewController"
                   moduleName = "Instagram"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a123456/Desktop/Instagram/Instagram/FeedViewController.swift"
+                  urlString = "file:///Users/a123456/Desktop/Instagram/Parstagram/Instagram/Instagram/FeedViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "188">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "241">
                </Location>
                <Location
-                  uuid = "FF33CAAB-55C7-4600-85AC-9880B1AE7A3D - d435e0e54c44a5e9"
+                  uuid = "1C98376A-02AA-4563-B5B4-F6B9909D177D - a427a6c5e7826cf5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Instagram.FeedViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Instagram.FeedViewController&gt;"
                   moduleName = "Instagram"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a123456/Desktop/Instagram/Instagram/FeedViewController.swift"
+                  urlString = "file:///Users/a123456/Desktop/Instagram/Parstagram/Instagram/Instagram/FeedViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "145">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "198">
                </Location>
             </Locations>
          </BreakpointContent>

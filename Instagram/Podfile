@@ -19,5 +19,6 @@ target 'Instagram' do
   # Add Parse pods and install
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
 end
