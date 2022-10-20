@@ -13,6 +13,7 @@ import MessageInputBar
 class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,MessageInputBarDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    
     let commentBar=MessageInputBar()
     var showCommentBar=false
     var posts=[PFObject]()
@@ -108,12 +109,19 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         if indexPath.row == 0{
             let cell=tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
             let user=post["author"] as! PFUser
+            cell.nameLabel.text=user.username
             cell.usernameLabel.text=user.username
             cell.captionLabel.text=post["caption"] as! String
             let imageFile=post["image"] as! PFFileObject
             let urlString=imageFile.url!
             let url=URL(string: urlString)!
             cell.photoView.af.setImage(withURL: url)
+            if (user["picture"] != nil){
+                let imageFile2=user["picture"] as! PFFileObject
+                let urlString2=imageFile2.url!
+                let url2=URL(string: urlString2)!
+                cell.pictureView.af.setImage(withURL: url2)
+            }
             return cell
         }else if indexPath.row<=comments.count{
             let cell=tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell
@@ -121,6 +129,13 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             cell.commentLabel.text=comment["text"] as? String
             let user=comment["author"] as! PFUser
             cell.usernameLabel.text=user["username"] as? String
+            if (user["picture"] != nil){
+                let imageFile=user["picture"] as! PFFileObject
+                let urlString=imageFile.url!
+                let url=URL(string: urlString)!
+                cell.pictureView.af.setImage(withURL: url)
+            }
+            
             return cell
         }else{
             let cell=tableView.dequeueReusableCell(withIdentifier: "AddCommentCell")!
@@ -163,6 +178,7 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     @IBAction func onLogout(_ sender: Any) {
         PFUser.logOut()
         let main=UIStoryboard(name: "Main", bundle: nil)
+        
         let loginViewController=main.instantiateViewController(identifier: "LoginViewController")
         guard let windowScene=UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate=windowScene.delegate as? SceneDelegate else{return}
         delegate.window?.rootViewController=loginViewController
