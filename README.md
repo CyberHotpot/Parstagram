@@ -4,6 +4,8 @@ This is an Instagram clone with a custom Parse backend that allows a user to pos
 
 Time spent: **5** hours spent in total
 
+https://github.com/bumingbaipod/podcast
+
 ## User Stories
 
 The following **required** functionality is completed:
