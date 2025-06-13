@@ -2,8 +2,6 @@
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments.
 
-https://github.com/bumingbaipod/podcast
-
 ## User Stories
 
 - [x] User can sign up to create a new account. 
